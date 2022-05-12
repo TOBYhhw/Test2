@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/change.js"></script>
+</head>
+
+<body>
+
+    <div class="container main">
+        <div class="ttime"></div>
+        <h1 class="text-center">TOBY的记账本</h1>
+        <p id="title">您的余额</p>
+        <p>￥<span id="yue">0</span></p>
+        <section>
+            <div class="item shouru">
+                <p>收入</p>
+                <p style="color: green;">￥<span id="shouru">0.00</span></p>
+            </div>
+            <div class="item zhichu">
+                <p>支出</p>
+                <p style="color: tomato;">￥<span id="zhichu">0.00</span></p>
+            </div>
+        </section>
+        <div colspan="3">
+            <h2>搜索</h2>
+            <input type="text" id="querytxt" placeholder="请输入名称">
+
+            <div id="ss"> 搜索</div>
+
+
+
+        </div>
+        <h2>历史记录</h2>
+        <ul>
+        </ul>
+        <h2>添加新交易</h2>
+        <p class="show">交易名称</p>
+        <input id="name" type="text" placeholder="请输入名称">
+        <p class="show">金额(支出-负数,收入+正数)</p>
+        <input id="money" type="text" placeholder="请输入金额">
+        <div id="add">添加新交易</div>
+        <button class="1">黑暗模式</button>
+        <button class="2">白天模式</button>
+    </div>
+</body>
+
+</html>

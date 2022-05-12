@@ -1,0 +1,189 @@
+      body{
+        background-image: url("../images/017d0355c1ed0e6ac7253f36abb243.jpg@1280w_1l_2o_100sh.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+     }
+     .heian{
+         background-image: url(../images/R-C.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     .hei {
+        width: 600px;
+        padding: 50px;
+         margin: 0 auto;
+         background-color: rgb(22, 21, 21);
+         border-radius: 20px;
+         margin-top:100px;
+         border: 2px solid black;
+        
+         }
+     .main {
+       width: 600px;
+       padding: 50px;
+        margin: 0 auto;
+        background-color: rgb(226 221 212 );
+        border-radius: 20px;
+        margin-top:10px;
+        border: 2px solid black;
+     
+       
+       
+        }
+    .html{
+        filter: grayscale(1);
+    }
+        h1 {
+            font-family: FANTASY;
+        }
+        .container>p:nth-of-type(2) {
+            line-height: 4rem;
+            font-size: 3.2rem;
+        }
+        .ttime {
+            width: 100%;
+            height: 30px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 3rem;
+        }
+    #title{
+        margin-top: 2rem;
+        font-family: cursive;
+        font-size: 1.7rem;
+        
+}
+        section {
+            height: 60px;
+            padding: 10px;
+            background-color: white;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px lightgray;
+        }
+
+        section .item {
+            width: 50%;
+            height: 100%;
+            float: left;
+            border-right: 1px solid lightgray;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        section .zhichu {
+            border: 0;
+        }
+
+        section .item p {
+            width: 100%;
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 900;
+            margin-bottom: -2px;
+        }
+
+        h2 {
+            line-height: 4rem;
+            font-size: 2rem;
+            border-bottom: 1px solid lightgray;
+            font-family: cursive;
+        }
+
+        .show {
+            line-height: 3.6rem;
+            font-size: 1.7rem;
+            font-family: cursive;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            height: 3rem;
+            font-size: 1.2rem;
+            text-indent: 1.4rem;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+           
+        }
+
+        #add {
+          
+            width: 25%;
+            line-height: 3rem;
+            margin: 2rem auto 0;
+            color: white;
+            background-color: darkcyan;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #add:hover {
+            cursor: pointer;
+            opacity:0.8;
+
+        }
+        #ss:hover {
+            cursor: pointer;
+            opacity:0.8;
+
+        }
+        #ss{
+            width: 15%;
+            margin: 5px 0 0 200px;
+            text-align: center;text-indent: 0rem; 
+            background-color: darkcyan;
+            color: white;
+            line-height: 3rem;
+            border-radius: 5px;
+        }
+        
+        li {
+            height: 3rem;
+            background-color: white;
+            margin: 1rem auto;
+            font-size: 1.2rem;
+            position: relative;
+            border-radius: 10px 0 0 10px;
+        }
+      
+
+        li span {
+            float: left;
+            width: 30%;
+            height: 3rem;
+            line-height: 3rem;
+            overflow: hidden;
+            white-space: nowrap; 
+            text-overflow: ellipsis; /*多出来的用省略号表示*/
+        }
+
+        li .name {
+            margin-left: 2%;
+            
+            
+        }
+
+        li .money {
+            text-align: right;
+        }
+
+        li .del {
+            width: 2rem;
+            height: 2rem;
+           border: none;
+           background-color: rgb(226 221 212 / 41%);
+            text-align: center;
+            font-size: 2rem;
+            position: absolute;
+            left: -3rem;
+            top: .5rem;
+            display: none;
+        }
+
+        li:hover .del {
+            display: block;
+        }
